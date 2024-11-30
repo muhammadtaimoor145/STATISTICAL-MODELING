@@ -1,22 +1,20 @@
 # STATISTICAL-MODELING
 
-This project focuses on analyzing a Social Media Marketing dataset to assist marketers in designing effective marketing strategies. The project involves various statistical analyses, including variance testing and demographic proportion analysis, to provide actionable insights for targeted marketing.
+This project involves a statistical analysis of a Social Media Marketing dataset to assist marketers in designing effective and targeted marketing strategies. The dataset contains user demographic and financial information, as well as their purchasing behavior, providing insights for optimizing marketing campaigns.
 
 **Objectives**
 
-Determine Variance Equality: Analyze if the variances between different groups (e.g., age, gender, or engagement levels) are statistically equal.
+Analyze Variance Equality: Test if variances in purchasing behavior are equal across different demographic groups.
 
-Calculate Proportion of Male and Female Users: Understand the demographic distribution of users across the dataset.
+Calculate Proportion of Male and Female Users: Understand the gender distribution and its impact on purchasing decisions.
 
-Provide Data-Driven Insights: Help marketers make informed decisions based on statistical evidence.
+Explore Relationships: Investigate how age and estimated salary influence purchasing behavior.
 
-**Dataset**
-
-The dataset contains various features related to social media marketing, such as user demographics, engagement metrics, and marketing campaign details.
+Provide Actionable Insights: Offer data-driven recommendations for marketers to design effective campaigns.
 
 **Technologies Used**
 
-Python: Core language for data analysis and statistical modeling.
+Python: Core language for statistical analysis and modeling.
 
 Jupyter Notebook: Interactive environment for running and documenting the analysis.
 
@@ -24,6 +22,6 @@ Pandas: For data manipulation and cleaning.
 
 NumPy: For numerical computations.
 
-SciPy: For statistical tests and variance analysis.
+SciPy: For statistical hypothesis testing (e.g., Levene’s test for variance equality).
 
-Matplotlib & Seaborn: For data visualization.
+Matplotlib & Seaborn: For data visualization and exploration.
